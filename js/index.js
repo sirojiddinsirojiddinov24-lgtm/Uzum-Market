@@ -1,6 +1,6 @@
 
 const section = document.querySelector(".section")
-const API = 'https://uzum-market-api.onrender.com'
+const API = 'https://uzum-market-api.onrender.com/products'
 let products = []
 let showAll = false
 let searchValue = ""
