@@ -1,6 +1,6 @@
 
 const section = document.querySelector(".section")
-const API = 'http://localhost:3005/products'
+const API = 'https://uzum-market-api.onrender.com'
 let products = []
 let showAll = false
 let searchValue = ""
@@ -25,7 +25,7 @@ const getProducts = async () => {
                     <p>Savol-javoblar</p>
                     <p>Buyurtmalarim</p>
                     <img class="rasm2" src="./imgs/Frame.png">
-                    <b>Oʻzbekcha</b>
+                    <b>O'zbekcha</b>
                 </div>
             </div>
             <div class="boshi1">
@@ -49,7 +49,7 @@ const getProducts = async () => {
                 </div>
                 <div class="kirishlar">
                     <a class="admin" href="./admin.html">⚙ Admin</a>
-                </div>
+            </div>
             </div>
             <div class="boshi2">
                 <b><img src="./imgs/div.image.png">Muddatli to'lov</b>
@@ -92,7 +92,7 @@ const getProducts = async () => {
                 <button class="korish">
                     Barcha mahsulotlarni ko'rish →
                 </button>
-            </div>9
+            </div>
 
             <footer>
                 <div class="foter">
