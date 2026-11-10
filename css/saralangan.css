@@ -1,0 +1,661 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boshi{
+    width: 100%;
+    height: 32px;
+    background-color: #F2F4F7;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: space;
+}
+
+.locate{
+    display: flex;
+    gap: 10px;
+}
+.chiziq{
+    padding-left: 10px;
+}
+.chiziqs{
+    color: #8B8E99;
+}
+.yangi{
+    display: flex;
+    gap: 15px;
+}
+.yangi p{
+    color: grey;
+}
+.yangii{
+    display: flex;
+    gap: 5px;
+}
+.rasm{
+    width: 247px;
+    height: 32px;
+}
+.navv{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.katalog{
+    width: 127px;
+    height: 40px;
+    background-color: #F0F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.rasmm{
+    width: 32px;
+    height: 24px;
+}
+.katalog p{
+    color: #7000FF;
+}
+.search input{
+    width: 500px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.search label{
+    color: #757575;
+    padding-left: 10px;
+}
+.salom{
+    width: 79px;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rasmmm{
+    width: 46px;
+    height: 38px;
+}
+.kirish{
+    display: flex;
+    gap: 8px;
+}
+.son1{
+    width: 87px;
+    height: 42px;
+    border: none;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.son2{
+    width: 124px;
+    height: 42px;
+    border: none;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.son3{
+    width: 86px;
+    height: 42px;
+    border: none;
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+}
+.son11{
+    width: 24px;
+    height: 24px;
+}
+.son1 a{
+    text-decoration: none;
+    color: black;
+}
+.son2 a{
+    text-decoration: none;
+    color: black;
+}
+.son3 a{
+    text-decoration: none;
+    color: black;
+}
+.son12{
+    width: 24px;
+    height: 24px;
+}
+.son13{
+    width: 24px;
+    height: 24px;
+}
+.muddat{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.rasms{
+    width: 139px;
+    height: 37px;
+}
+.muddat p{
+    color: grey;
+}
+.rasmlar{
+    width: 57px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+.rasmlarr{
+    width: 1300px;
+    height: 500px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.mahsulotlar{
+    margin-top: 50px;
+}
+.mahsulotlar .arzon{
+    font-size: 28px;
+    padding-left: 100px;
+}
+
+
+
+
+
+
+.yog{
+    display: flex;
+    gap: 40px;
+    margin-top: 21px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.yangisuz{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.div1 {
+    width: 232px;
+    height: 456px;
+    border: none;
+    position: relative;
+}
+
+.div1 > img:first-child {
+    width: 232px;
+    height: 309px;
+}
+
+.div1 > img:nth-child(2) {
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+.suz{
+    font-size: 15px;
+    width: 252px;
+    padding-top: 10px;
+}
+.quti{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: 25px;
+}
+.siroj{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.div1 > img:nth-child(2):hover {
+    filter: invert(20%) sepia(100%) saturate(5000%) hue-rotate(350deg);
+    cursor: pointer;
+}
+.oxirgisi{
+    width: 740px;
+    height: 56px;
+    border-radius: 8px;
+    background-color:#F2F4F7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.foter{
+    display: flex;
+    gap: 222px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.chiziq{
+    width: 1340px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.suz{
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+}
+
+.mchj{
+    color: grey;
+}
+.savat{
+    width: 130px;
+    height: 50px;
+    background-color: #d7d7f9;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.div1 {
+    height: 100%;
+}
+
+.div1 > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.div1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.div1 h1 {
+    font-size: 28px;
+    min-height: 65px;
+}
+
+.div1 p {
+    min-height: 55px;
+}   
+
+.rasm-box{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.rasm-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.yurak {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.yurak.active {
+    color: red;
+}
+
+.yurak {
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.buttonlar{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.buttonlar button:nth-child(1){
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.buttonlar button:nth-child(2){
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.oxiri{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.admin{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.korish{
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.kirishlar a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.buttonlar {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.buttonlar button {
+    flex: 1;
+    border: none;
+    padding: 11px 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.update-btn {
+    background: #7000ff;
+    color: white;
+}
+
+.update-btn:hover {
+    background: #5600cc;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px #7000ff40;
+}
+
+.delete-btn {
+    background: #fff0f0;
+    color: #e53935;
+}
+
+.delete-btn:hover {
+    background: #e53935;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px #e5393540;
+}
+
+
+.oxiri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.admin,
+.korish {
+    padding: 13px 30px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.admin {
+    background: #f0e8ff;
+    color: #7000ff;
+    border: 2px solid #7000ff;
+}
+
+.admin:hover {
+    background: #7000ff;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px #7000ff40;
+}
+
+.korish {
+    background: #7000ff;
+    color: white;
+    border: 2px solid #7000ff;
+}
+
+.korish span {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.korish:hover {
+    background: #5600cc;
+    border-color: #5600cc;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px #7000ff50;
+}
+
+
+@media (max-width: 500px) {
+    .oxiri {
+        gap: 10px;
+    }
+
+    .admin,
+    .korish {
+        padding: 11px 17px;
+        font-size: 13px;
+    }
+
+    .buttonlar {
+        gap: 6px;
+    }
+
+    .buttonlar button {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .boshi {
+        gap: 15px;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navv {
+        margin: 20px 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .search {
+        max-width: 100%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .muddat {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .rasmlarr {
+        width: calc(100% - 30px);
+        height: auto;
+        margin: 25px 15px;
+    }
+
+    .yog {
+        margin: 15px;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .foter {
+        gap: 25px;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .chiziq {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navv {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .katalog,
+    .search,
+    .salom {
+        width: 100%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .kirish {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div1 > img:first-child {
+        width: 100%;
+        height: 160px;
+        object-fit: contain;
+    }
+
+    .div1 h1 {
+        font-size: 17px;
+    }
+
+    .div1 p {
+        font-size: 12px;
+    }
+
+    .foter {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rasmsavat {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .oxirgisi {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .products-grid {
+        gap: 7px;
+        padding: 7px;
+    }
+
+    .div1 > img:first-child {
+        height: 120px;
+    }
+
+    .div1 h1 {
+        font-size: 15px;
+    }
+}
