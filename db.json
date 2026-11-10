@@ -3491,9 +3491,5 @@
       "description": "BU maxsulot real madrid ning formasi bo'lib va oq rangda sifatli",
       "id": "FBQLFmGw1-M"
     }
-  ],
-  "total": 194,
-  "skip": 0,
-  "limit": 20,
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
