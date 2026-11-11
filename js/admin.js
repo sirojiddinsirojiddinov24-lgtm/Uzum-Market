@@ -1,5 +1,4 @@
-
-const API = "http://localhost:3005/products";
+const API = 'https://uzum-market-api.onrender.com/products'
 const form = document.querySelector("#product-form");
 const titleInput = document.querySelector("#title");
 const priceInput = document.querySelector("#price");

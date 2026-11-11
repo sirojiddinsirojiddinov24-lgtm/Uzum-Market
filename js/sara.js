@@ -1,5 +1,6 @@
 const section = document.querySelector(".section")
-const API='http://localhost:3005/products'
+const API = 'https://uzum-market-api.onrender.com/products'
+
 let products=[]
 const getProducts = async () => {
     try {
