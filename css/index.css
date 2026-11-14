@@ -419,6 +419,23 @@ footer {
 .search-btn:hover svg {
     transform: scale(1.12);
 }
+.buyurtma {
+  background: linear-gradient(135deg, #00c853, #00a844);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.buyurtma:hover {
+  background: linear-gradient(135deg, #00a844, #007d32);
+  transform: translateY(-2px);
+}
 @media (max-width: 1000px) {
     .boshi {
         flex-wrap: wrap;

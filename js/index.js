@@ -190,8 +190,8 @@ const getProducts = async () => {
                             <p>${(tovar.description || "").slice(0,60)}...</p>
                             <p>⭐ ${tovar.rating}</p>
                             <h3>${tovar.price}$</h3>
+                            <a class="buyurtma" href="./buyurtma.html">🚚 Buyurtma qilish</a>
                         </div>
-                        <a class="buyurtma" href="./buyurtma.html">🚚 Buyurtma qilish</a>
                     </div>
                 `
             })
