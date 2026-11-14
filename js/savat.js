@@ -20,7 +20,7 @@ const getProducts = async () => {
                     <h1>${tovar.title}</h1>
                     <p>${tovar.description.slice(0,60)}...</p>
                     <p>⭐ ${tovar.rating}</p>
-                    <h3>${tovar.price}"$"</h3>
+                    <h3>${tovar.price}$</h3>
                     <a class="buyurtma" href="./buyurtma.html">🚚 Buyurtma qilish</a>
                 </div>
             </div>
