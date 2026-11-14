@@ -33,7 +33,21 @@ const getProducts = async () => {
                 <img class="rasm4" src="./imgs/Button_margin.png">
                 <div class="input">
                     <input class="sorov" placeholder="Mahsulotlar va turkumlar izlash" type="text">
-                    <button>🔍</button>
+                    <button class="search-btn">
+                        <svg
+                            width="23"
+                            height="23"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <circle cx="11" cy="11" r="7"></circle>
+                            <path d="m20 20-4-4"></path>
+                        </svg>
+                    </button>
                 </div>
                 <div class="kirishlar">
                     <p>👨</p>
@@ -176,14 +190,6 @@ const getProducts = async () => {
                             <p>${(tovar.description || "").slice(0,60)}...</p>
                             <p>⭐ ${tovar.rating}</p>
                             <h3>${tovar.price}$</h3>
-                            <div class="buttonlar">
-                                <button class="update-btn" onclick="window.updateProduct('${tovar.id}')">
-                                    ✏️ Update
-                                </button>
-                                <button class="delete-btn" onclick="window.deleteProduct('${tovar.id}')">
-                                    🗑️ Delete
-                                </button>
-                            </div>
                         </div>
                     </div>
                 `

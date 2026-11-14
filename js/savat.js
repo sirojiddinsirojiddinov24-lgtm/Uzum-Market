@@ -4,11 +4,11 @@ let products=[]
 const getProducts = async () => {
     try {
         const request = await axios.get(API)
-        const data = request.data;
+        const data = request.data
         products = Array.isArray(data) ? data : data.products || []
         const grid = document.createElement("div")
-        grid.className = "products-grid";
-        section.appendChild(grid);
+        grid.className = "products-grid"
+        section.appendChild(grid)
         products.forEach(tovar => {
         grid.innerHTML += `
             <div class='div1'>
@@ -21,29 +21,21 @@ const getProducts = async () => {
                     <p>${tovar.description.slice(0,60)}...</p>
                     <p>⭐ ${tovar.rating}</p>
                     <h3>${tovar.price}$</h3>
-                    <div class="buttonlar">
-                        <button class="update-btn" onclick="window.updateProduct('${tovar.id}')">
-                            ✏️ Update
-                        </button>
-                        <button class="delete-btn" onclick="window.deleteProduct('${tovar.id}')">
-                            🗑️ Delete
-                        </button>
-                    </div>
                 </div>
             </div>
-        `;   
+        `   
         })
-        const search = document.querySelector(".sorov");
+        const search = document.querySelector(".sorov")
 
         search.addEventListener("input", function() {
-            const value = search.value.toLowerCase();
+            const value = search.value.toLowerCase()
         
-            const cards = grid.querySelectorAll(".div1");
+            const cards = grid.querySelectorAll(".div1")
         
             cards.forEach(function(card) {
-                const name = card.innerText.toLowerCase();
+                const name = card.innerText.toLowerCase()
             
-                card.style.display = name.includes(value) ? "" : "none";
+                card.style.display = name.includes(value) ? "" : "none"
             })
         })
         // Swiper HTML yaratilgandan keyin ishga tushadi
@@ -69,12 +61,12 @@ const getProducts = async () => {
         })
 
     } catch (error) {
-        console.log(error);
+        console.log(error)
     }
     // finally{
     //     alert("Malumotlar yuklandi ✔")
     // }
-};
+}
 document.addEventListener('click', function(e) {
     if (e.target.classList.contains("yurak")){
         e.target.classList.toggle("active")

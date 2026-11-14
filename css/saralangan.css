@@ -502,108 +502,127 @@
 }
 
 
-@media (max-width: 500px) {
-    .oxiri {
-        gap: 10px;
-    }
-
-    .admin,
-    .korish {
-        padding: 11px 17px;
-        font-size: 13px;
-    }
-
-    .buttonlar {
-        gap: 6px;
-    }
-
-    .buttonlar button {
-        font-size: 12px;
-        padding: 10px 5px;
-    }
-}
-
-
-
-
-
-
-
-@media (max-width: 700px) {
+/* TABLET */
+@media (max-width: 1000px) {
     .boshi {
-        gap: 15px;
+        gap: 20px;
         flex-wrap: wrap;
         height: auto;
         padding: 10px;
     }
 
     .navv {
-        margin: 20px 15px;
-        flex-wrap: wrap;
+        margin: 25px 20px;
         justify-content: center;
-        gap: 10px;
-    }
-
-    .search {
-        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 12px;
     }
 
     .search input {
-        width: 100%;
+        width: 300px;
+        max-width: 100%;
     }
 
     .muddat {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 12px;
     }
 
     .rasmlarr {
-        width: calc(100% - 30px);
+        width: 95%;
         height: auto;
-        margin: 25px 15px;
-    }
-
-    .yog {
-        margin: 15px;
-        gap: 15px;
-        justify-content: center;
+        margin: 20px auto;
     }
 
     .products-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 15px;
     }
 
     .foter {
         gap: 25px;
         flex-wrap: wrap;
-        padding: 15px;
     }
 
     .chiziq {
-        width: calc(100% - 30px);
-        margin-left: 15px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .suz {
+        padding-left: 20px;
     }
 }
 
-@media (max-width: 500px) {
-    .navv {
-        flex-direction: column;
-        align-items: stretch;
+/* TELEFON */
+@media (max-width: 600px) {
+    .boshi {
+        height: auto;
+        min-height: 40px;
+        gap: 8px;
+        padding: 8px;
+        font-size: 11px;
+        flex-wrap: wrap;
     }
 
-    .katalog,
-    .search,
-    .salom {
+    .locate,
+    .yangi {
+        gap: 5px;
+    }
+
+    .navv {
+        margin: 15px 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .katalog {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .search {
         width: 100%;
+        display: flex;
     }
 
     .search input {
         width: 100%;
+        min-width: 0;
+        height: 38px;
     }
 
-    .kirish {
-        justify-content: center;
-        flex-wrap: wrap;
+    .muddat {
+        margin-top: 12px;
+        gap: 8px;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .rasms {
+        width: 100px;
+        height: auto;
+    }
+
+    .rasmlar {
+        width: 40px;
+        height: auto;
+    }
+
+    .rasmlarr {
+        width: 95%;
+        height: auto;
+        margin: 15px auto;
+    }
+
+    .mahsulotlar {
+        margin-top: 20px;
+    }
+
+    .mahsulotlar .arzon {
+        font-size: 21px;
+        padding-left: 12px;
     }
 
     .products-grid {
@@ -612,50 +631,102 @@
         padding: 10px;
     }
 
-    .div1 {
-        width: 100%;
+    .div1 > div {
+        padding: 8px;
     }
 
-    .div1 > img:first-child {
-        width: 100%;
-        height: 160px;
-        object-fit: contain;
+    .div1 img,
+    .rasm-box {
+        height: 130px;
     }
 
     .div1 h1 {
-        font-size: 17px;
+        font-size: 15px;
+        min-height: 40px;
     }
 
     .div1 p {
         font-size: 12px;
+        min-height: 35px;
+    }
+
+    .yurak {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .buttonlar {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .buttonlar button {
+        width: 100%;
+        font-size: 11px;
+        padding: 9px 5px;
+    }
+
+    .oxiri {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 20px 10px;
+    }
+
+    .admin,
+    .korish {
+        width: auto;
+        padding: 11px 15px;
+        font-size: 12px;
     }
 
     .foter {
-        flex-direction: column;
+        margin: 30px 10px;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
-    .rasmsavat {
-        max-width: 100%;
-        height: auto;
+    .chiziq {
+        width: 95%;
+        margin: 20px auto;
     }
 
-    .oxirgisi {
-        max-width: 100%;
+    .suz {
+        padding: 0 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .yangisuz {
+        padding: 30px 15px;
+    }
+
+    .savat {
+        width: 110px;
+        height: 42px;
     }
 }
 
-@media (max-width: 350px) {
+/* JUDA KICHIK TELEFON */
+@media (max-width: 380px) {
     .products-grid {
         gap: 7px;
         padding: 7px;
     }
 
-    .div1 > img:first-child {
-        height: 120px;
+    .div1 img,
+    .rasm-box {
+        height: 110px;
     }
 
-    .div1 h1 {
-        font-size: 15px;
+    .div1 > div {
+        padding: 6px;
     }
 }
+
+
+
+

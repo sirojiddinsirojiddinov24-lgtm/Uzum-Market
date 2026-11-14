@@ -7,6 +7,25 @@
     <title>Uzum Admin Panel</title>
     <link rel="stylesheet" href="./css/admin.css">
 </head>
+<div id="pinModal" class="pin-modal">
+    <div class="pin-box">
+        <h2>🔐 Admin panel</h2>
+        <p>PIN-kodni kiriting</p>
+
+        <input
+            type="password"
+            id="pinInput"
+            placeholder="PIN-kod"
+            maxlength="4"
+        >
+
+        <p id="pinError"></p>
+
+        <button type="button" id="pinButton">
+            Kirish
+        </button>
+    </div>
+</div>
 <body>
     <header class="header">
         <a href="./index.html" class="logo">Uzum Admin</a>

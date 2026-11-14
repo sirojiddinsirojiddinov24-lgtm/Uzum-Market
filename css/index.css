@@ -394,115 +394,153 @@ footer {
 .mchj {
     color: grey;
 }
+.search-btn {
+    width: 76px;
+    height: 48px;
+    border: none;
+    background: #7000ff;
+    color: white;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
 
+.search-btn:hover {
+    background: #5b00d6;
+}
+
+.search-btn svg {
+    transition: transform 0.25s ease;
+}
+
+.search-btn:hover svg {
+    transform: scale(1.12);
+}
 @media (max-width: 1000px) {
-    .products-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 15px;
+    .boshi {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .boshi1,
+    .boshi2 {
+        gap: 12px;
+        padding: 0 10px;
     }
 
     .sorov {
         width: 300px;
     }
 
-    .foter {
-        justify-content: space-between;
-        gap: 25px;
+    .products-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 15px;
+        padding: 15px;
     }
 
     .arzon {
-        margin-left: 30px;
+        margin-left: 20px;
+        font-size: 26px;
+    }
+
+    .swiper {
+        height: 300px;
+        margin: 30px auto;
+    }
+
+    .rasmlarr {
+        width: 95%;
+    }
+
+    .foter {
+        gap: 20px;
     }
 }
 
-@media (max-width: 700px) {
-    .products-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 12px;
-        padding: 12px;
+@media (max-width: 600px) {
+    .boshi {
+        min-height: 40px;
+        height: auto;
+        justify-content: center;
+        gap: 8px;
+        font-size: 11px;
+        padding: 8px;
     }
 
-    .div1 h1 {
-        font-size: 20px;
-        min-height: 45px;
+    .boshi div b {
+        margin-left: 3px;
     }
 
-    .div1 p {
+    .boshi1 {
+        margin-top: 12px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .rasm3,
+    .rasm4 {
+        height: 30px;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .sorov {
+        width: 100%;
+        min-width: 0;
+        height: 38px;
         font-size: 13px;
-        min-height: 45px;
     }
 
-    .div1 img,
-    .rasm-box {
-        height: 150px;
+    .input button {
+        width: 45px;
+        flex-shrink: 0;
     }
 
-    .buttonlar {
-        gap: 6px;
+    .kirishlar {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        font-size: 13px;
     }
 
-    .buttonlar button {
+    .admin {
+        height: 35px;
         font-size: 12px;
+    }
+
+    .boshi2 {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .boshi2 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rasmlarr {
+        width: 95%;
+        margin: 15px auto;
     }
 
     .swiper {
         width: 95%;
-        height: 250px;
-        margin: 25px auto;
+        height: 180px;
+        margin: 20px auto;
     }
 
     .arzon {
-        margin-left: 15px;
-        font-size: 23px;
-    }
-
-    .sorov {
-        width: 250px;
-    }
-
-    .foter {
-        justify-content: space-between;
-        gap: 25px;
-    }
-
-    .chiziq {
-        width: 95%;
-    }
-}
-
-@media (max-width: 500px) {
-    .boshi {
-        height: auto;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 10px;
-    }
-
-    .boshi div {
-        flex-wrap: wrap;
-    }
-
-    .boshi1 {
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .sorov {
-        width: 210px;
-    }
-
-    .boshi2 {
-        justify-content: flex-start;
-        gap: 12px;
-        overflow-x: auto;
-        flex-wrap: nowrap;
-        padding: 10px;
-    }
-
-    .boshi2 p,
-    .boshi2 b {
-        white-space: nowrap;
-        font-size: 13px;
+        margin: 25px 15px;
+        font-size: 21px;
     }
 
     .products-grid {
@@ -511,102 +549,97 @@ footer {
         padding: 10px;
     }
 
+    .div1 > div {
+        padding: 9px;
+    }
+
+    .div1 img {
+        height: 135px;
+    }
+
+    .rasm-box {
+        height: 135px;
+    }
+
     .div1 h1 {
-        font-size: 17px;
+        font-size: 15px;
         min-height: 40px;
     }
 
     .div1 p {
         font-size: 12px;
-        min-height: 40px;
-    }
-
-    .div1 > div {
-        padding: 8px;
-    }
-
-    .rasm-box,
-    .div1 img {
-        height: 130px;
+        min-height: 35px;
     }
 
     .yurak {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
         font-size: 20px;
+        top: 5px;
+        right: 5px;
     }
 
     .buttonlar {
+        flex-direction: column;
         gap: 6px;
     }
 
     .buttonlar button {
-        height: 35px;
+        width: 100%;
+        min-height: 35px;
         font-size: 11px;
-        padding: 5px;
     }
 
     .oxiri {
-        margin: 25px 0 40px;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 25px 10px;
     }
 
+    .admin,
     .korish {
-        width: 85%;
-        height: 44px;
-        font-size: 14px;
-    }
-
-    .admin {
-        height: 36px;
-        padding: 0 10px;
+        width: auto;
+        padding: 11px 15px;
         font-size: 12px;
     }
 
-    .swiper {
-        height: 180px;
+    footer {
+        padding: 25px 15px;
     }
 
     .foter {
-        flex-direction: column;
+        justify-content: flex-start;
         gap: 20px;
     }
 
     .chiziq {
-        width: 100%;
-        margin: 25px auto;
+        width: 95%;
+        margin: 20px auto;
     }
 
     .suz {
         flex-wrap: wrap;
         gap: 10px;
-    }
-
-    footer > div:last-child {
-        flex-wrap: wrap;
-        gap: 15px !important;
+        font-size: 12px;
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     .products-grid {
         gap: 7px;
         padding: 7px;
     }
 
+    .div1 img,
+    .rasm-box {
+        height: 115px;
+    }
+
+    .div1 > div {
+        padding: 7px;
+    }
+
     .div1 h1 {
-        font-size: 15px;
-    }
-
-    .rasm-box,
-    .div1 img {
-        height: 110px;
-    }
-
-    .swiper {
-        height: 150px;
-    }
-
-    .sorov {
-        width: 170px;
+        font-size: 13px;
     }
 }
