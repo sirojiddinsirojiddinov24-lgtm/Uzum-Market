@@ -33,7 +33,7 @@ function renderProducts(products) {
             <img src="${product.thumbnail || product.images?.[0] || ""}" alt="${product.title || "Mahsulot"}" onerror="this.src='https://placehold.co/300x200?text=No+Image'">
             <h3>${escapeHTML(product.title || "")}</h3>
             <p>${escapeHTML(product.description || "")}</p>
-            <p class="product-price">${Number(product.price || 0).toLocaleString("uz-UZ")} so‘m</p>
+            <p class="product-price">${Number(product.price || 0).toLocaleString("uz-UZ")} $</p>
             <div class="card-buttons">
                 <button class="edit-btn" onclick="editProduct('${product.id}')">Tahrirlash</button>
                 <button class="remove-btn" onclick="deleteProduct('${product.id}')">O‘chirish</button>
