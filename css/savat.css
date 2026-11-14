@@ -713,6 +713,7 @@
         font-size: 12px;
     }
 }
+
 @media (max-width: 380px) {
     .products-grid {
         gap: 7px;

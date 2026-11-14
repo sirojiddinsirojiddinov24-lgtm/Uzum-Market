@@ -502,7 +502,6 @@
 }
 
 
-/* TABLET */
 @media (max-width: 1000px) {
     .boshi {
         gap: 20px;
@@ -554,7 +553,6 @@
     }
 }
 
-/* TELEFON */
 @media (max-width: 600px) {
     .boshi {
         height: auto;
@@ -710,7 +708,6 @@
     }
 }
 
-/* JUDA KICHIK TELEFON */
 @media (max-width: 380px) {
     .products-grid {
         gap: 7px;
@@ -726,7 +723,3 @@
         padding: 6px;
     }
 }
-
-
-
-

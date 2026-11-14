@@ -208,7 +208,12 @@ body {
 #pinError {
     color: red;
 }
+
 @media (max-width: 900px) {
+    .header {
+        padding: 0 20px;
+    }
+
     .container {
         width: 94%;
         margin: 25px auto;
@@ -219,23 +224,24 @@ body {
         gap: 15px;
     }
 
-    .header {
-        padding: 0 4%;
+    .form-box {
+        padding: 20px;
     }
 }
+
 
 @media (max-width: 600px) {
     .header {
         height: 60px;
-        padding: 0 15px;
+        padding: 0 12px;
     }
 
     .logo {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .back {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .container {
@@ -244,16 +250,16 @@ body {
     }
 
     .container h1 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .subtitle {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .form-box {
-        padding: 16px;
-        margin-top: 20px;
+        padding: 15px;
+        margin-top: 18px;
     }
 
     .form-box h2 {
@@ -262,7 +268,7 @@ body {
 
     #product-form input,
     #product-form textarea {
-        padding: 12px;
+        padding: 11px;
         font-size: 14px;
     }
 
@@ -272,7 +278,6 @@ body {
 
     .form-buttons button {
         width: 100%;
-        padding: 13px;
     }
 
     .products-section {
@@ -280,16 +285,12 @@ body {
     }
 
     .section-top {
-        gap: 10px;
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     .section-top h2 {
-        font-size: 20px;
-    }
-
-    #product-count {
-        font-size: 13px;
+        font-size: 19px;
     }
 
     .products-list {
@@ -302,28 +303,47 @@ body {
     }
 
     .product-card img {
-        height: 190px;
+        height: 170px;
     }
 
     .product-card h3 {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .card-buttons button {
-        padding: 12px 5px;
-        font-size: 13px;
-    }
-}
-@media (max-width: 380px) {
-    .logo {
-        font-size: 18px;
-    }
-
-    .back {
+        padding: 11px 5px;
         font-size: 12px;
     }
 
+    .pin-box {
+        width: 90%;
+        max-width: 320px;
+        padding: 22px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo {
+        font-size: 17px;
+    }
+
+    .back {
+        font-size: 11px;
+    }
+
     .container h1 {
-        font-size: 23px;
+        font-size: 21px;
+    }
+
+    .form-box {
+        padding: 12px;
+    }
+
+    .card-buttons {
+        flex-direction: column;
+    }
+
+    .products-list {
+        grid-template-columns: 1fr;
     }
 }
