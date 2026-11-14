@@ -191,6 +191,7 @@ const getProducts = async () => {
                             <p>⭐ ${tovar.rating}</p>
                             <h3>${tovar.price}$</h3>
                         </div>
+                        <a class="buyurtma" href="./buyurtma.html">🚚 Buyurtma qilish</a>
                     </div>
                 `
             })
